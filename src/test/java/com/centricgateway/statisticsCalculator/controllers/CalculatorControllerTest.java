@@ -7,7 +7,6 @@ import static org.junit.Assert.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-
 import org.springframework.http.MediaType;
 import org.junit.Before;
 import org.junit.Test;
@@ -46,7 +45,7 @@ public class CalculatorControllerTest extends AbstractTest {
 	}
 	
 	 @Test
-	   public void getProductsList() throws Exception {
+	   public void getstatistics() throws Exception {
 	      String uri = "/statistics";
 	      MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.get(uri)
 	         .accept(MediaType.APPLICATION_JSON_VALUE)).andReturn();

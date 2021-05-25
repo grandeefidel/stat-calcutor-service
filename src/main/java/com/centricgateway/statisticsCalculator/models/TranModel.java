@@ -13,7 +13,7 @@ public class TranModel {
 	@NotNull
 	private BigDecimal amount;
 	
-//	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "YYYY-MM-DDThh:mm:ss.sssZ")
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "YYYY-MM-DDThh:mm:ss.sssZ")
 	private LocalDateTime timestamp;
 
 	
